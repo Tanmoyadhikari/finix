@@ -1,0 +1,41 @@
+@media (max-width:508px){
+  div.one i {
+    padding: 20px;
+    width: 44%;
+
+}
+.justify-content-center {
+  justify-content: center!important;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  flex-direction: column;
+  list-style: none;
+}
+}
+@media (max-width:429px){
+  div.one i {
+    padding: 15px;
+    width: 44%;
+
+}
+}
+@media (max-width:357px){
+  div.one i {
+    font-size: 27px;
+    padding: 15px;
+    width: 44%;
+}
+}
+@media (max-width:306px){
+  div.one i {
+    font-size: 27px;
+    padding: 23px;
+    width: 74%;
+}
+
+}

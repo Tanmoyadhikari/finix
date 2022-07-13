@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Spartan:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,400;0,900;1,500;1,800&display=swap");
+/*Header Part Design*/
+h1,h2,h3,h4,h5{font-family:"rubik",sans-serif;}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0);
+  font-family: "Rubik";
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: tomato;
+}
+li.nav-item {
+  margin: 0 4px;
+}
+.gray {
+  color: gray;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  top: 128%;
+  left: 0%;
+  transition: all 0.5s;
+}
+div.searc_btn {
+  width: 300px;
+}
+li.pages,
+li.services {
+  position: relative;
+}
+li.pages:hover div.sub_pages {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+  transition: all 1.5s;
+}
+li.services:hover div.sub_services {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+  transition: all 1.5s;
+}
+div.sub_pages,
+div.sub_services {
+  position: absolute;
+  width: 200px;
+  top: 103%;
+  left: 0;
+  box-shadow: 0 0 10px gray;
+  background: #fff;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+}
+div.sub_pages ul li,
+div.sub_services ul li {
+  list-style-type: none;
+  padding: 10px 25px;
+  margin: 0;
+}
+div.sub_pages ul li:hover,
+div.sub_services ul li:hover {
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+div.sub_pages ul li:hover a,
+div.sub_services ul li:hover a {
+  color: tomato;
+}
+div.sub_pages ul li a,
+div.sub_services ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-family: "rubik", sans-serif;
+}
+/*Hero Part Design*/
+div.hero_text_con {
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+}
+a.veaw_hero_btn {
+  border: 2px solid #e73c3e;
+  font-size: 16px;
+  padding: 10px 35px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+a.veaw_hero_btn:hover {
+  background: #e73c3e;
+  color: #fff;
+  transform: scale(1.1);
+}
+span.follow_span {
+  font-size: 19px;
+  position: relative;
+  margin-right: 60px;
+}
+span.follow_span::after {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background: #000;
+  position: absolute;
+  top: 54%;
+  margin: 0 1px;
+}
+ul.icon_con {
+  display: inline-block;
+  list-style: none;
+}
+ul.icon_con li {
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 16px;
+}
+ul.icon_con li a {
+  color: #000;
+  transition: all 0.5s;
+}
+ul.icon_con li:hover a {
+  color: tomato;
+}
+button.btn_apply {
+  padding: 0 45px;
+  border: 2px solid #e73c3e;
+  background: #e73c3e;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  transition: all 0.5s;
+}
+button.btn_apply:hover {
+  background: #fff;
+  color: #e73c3e;
+  transform: scaleX(1.1);
+}
+div.service_hero_sec{background:linear-gradient(#ffffff9a,#ffffff9a),linear-gradient(#ffffff9a,#ffffff9a), url("../imgs/bg-3.jpg");padding:20vh 0;background-size:cover;background-position:center center;}
+/**/
+div.shape{width:82%;height:95%;background:#e73c3e;position:absolute;top:-59%;left:33px;z-index:-1;border-radius:50%;}
+i.ser_icon{background:#000040;font-size:58px!important;padding:10px 15px;border-radius:50%;color:#fff;}
